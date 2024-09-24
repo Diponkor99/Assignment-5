@@ -81,3 +81,5 @@ document.getElementById('btn_3').addEventListener('click',function(){
 document. getElementById('blog').addEventListener('click', function(){
      window.location.href='home/index.html';
 })
+
+
