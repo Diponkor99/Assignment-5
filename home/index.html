@@ -20,7 +20,7 @@
     }
 </style>
 </head>
-<body class="">
+<body >
     
     <header>
         <nav >
@@ -41,7 +41,42 @@
         </nav>
 
     </header>
-    <main>
+    <main class="mx-5 lg:mx-16">
+     <h1 class="text-5xl mt-10 mb-5 font-bold">Important FAQ ?</h1>
+
+     <div class="collapse collapse-arrow bg-lime-100 mb-5">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">What is the Document Object Model(DOM)?</div>
+        <div class="collapse-content">
+          <p>The Document Object Model (DOM) is a programming interface for interacting with HTML, XML, and other structured documents. It represents the document as a tree structure, where each node represents an element, attribute, or text content. This tree structure allows developers to access and manipulate the document's content, structure, and style.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-lime-100 mb-5">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+        <div class="collapse-content">
+          <p>This method is used to select an element based on its unique ID attribute.
+            The ID attribute should be unique within the HTML document.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-lime-100 mb-5">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+        <div class="collapse-content">
+          <p>Event Delegation in the context of the DOM is a technique where you attach an event listener to a parent element instead of individual child elements. This allows you to handle events for all child elements efficiently, especially when there are many dynamic elements or elements that are added or removed from the DOM.</p>
+        </div>
+      </div>
+
+      <div class="collapse collapse-arrow bg-lime-100 mb-5">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+        <div class="collapse-content">
+          <p>Attributes and styles are essential components of HTML elements, defining their properties and appearance. The DOM provides methods and properties to access and modify these attributes and styles.</p>
+        </div>
+      </div>
+
+
+
 
     </main>
     <script src="/js/AddMoney.js"></script>
