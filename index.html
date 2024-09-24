@@ -24,8 +24,8 @@
 </head>
 <body>
     <!-- header file stat -->
-    <header>
-        <nav class="">
+    <header class="">
+        <nav >
             <div class="navbar bg-amber-50 justify-around py-6">
                 <a class="btn btn-ghost bg-lime-400 text-sm md:text-xl font-semibold text-[#111111]">Blog</a>
                 <div class="gap-2">
@@ -35,7 +35,8 @@
 
                 <div class="gap-2">
                     <img class="w-7" src="assets/coin.png" alt="">
-                    <h1 class="text-gray-700 text-sm md:text-xl font-medium">5500 BDT</h1>
+                    <h1  class="text-gray-700 text-sm md:text-xl font-medium">
+                      <span id="Main_maney">5500</span> BDT</h1>
                 </div>
               </div>
         
@@ -44,11 +45,11 @@
     <!-- SACTION----Button--Start -->
      <Section  class="flex mt-10 lg:mt-20 justify-center gap-4 mb-5 lg:mb-8 ">
         <div id="Do" class="bg-lime-400 rounded-lg">
-          <button  id="Donation" class="px-10 py-2 btn btn-4xl  btn-outline ">Donation</button>
+          <button  id="Donation" class="px-9 py-2 btn btn-4xl  btn-outline text-xl font-semibold text-[#111111]">Donation</button>
         </div>
 
         <div id="dp" class="bg-lime-400 rounded-lg">
-          <button id="History" class="px-12 py-2 btn btn-outline ">History</button>
+          <button id="History" class="px-10 py-2 btn btn-outline font-medium text-xl">History</button>
         </div>
        </Section>
     <!-- SACTION----Button--End -->
@@ -63,22 +64,25 @@
  <section>
   <div class=" bg-base-100 w-auto lg:w-10/12  shadow-2xl mx-4 lg:mx-auto rounded-xl p-6">
       <div class="hero-content flex-col lg:flex-row">
-        <img
+        <img 
           src="assets/noakhali.png"
           class="max-w-sm rounded-lg shadow-2xl mx-auto lg:mr-4 w-11/12 " />
         <div>
           <!-- coin----button---start -->
              <button class="bg-stone-300 flex py-1 px-3 rounded-md ">
               <img class="w-6 " src="assets/coin.png" alt="">
-              <h1 class="text-base font-normal ">0 BDT</h1>
+
+              <h1 id="coya-Add1" class="text-base font-normal ">0 BDT</h1>
+              
              </button>
           <!-- coin----button---End -->
-          <h1 class="text-xl font-bold my-4 text-[#111111]">Donate for Flood at Noakhali, Bangladesh</h1>
+          <h1 id="Noakhali" class="text-xl font-bold my-4 text-[#111111]">Donate for Flood at Noakhali, Bangladesh</h1>
           <p class="mb-6">
               The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
           </p>
-          <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-md" /> <br>
-          <button class="btn bg-lime-400 w-full max-w-md mt-3.5 font-semibold text-xl text-[#111111]">Donate Now</button>
+          <input id="input-filed1" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-md" /> <br>
+
+          <button id="Donate-btn1" class="btn bg-lime-400 w-full max-w-md mt-3.5 font-semibold text-xl text-[#111111]">Donate Now</button>
         </div>
       </div>
     </div>
@@ -96,15 +100,15 @@
           <!-- coin----button---start -->
              <button class="bg-stone-300 flex py-1 px-3 rounded-md ">
               <img class="w-6 " src="assets/coin.png" alt="">
-              <h1 class="text-base font-normal ">600 BDT</h1>
+              <h1 id="Amount_box-2" class="text-base font-normal ">600 BDT</h1>
              </button>
           <!-- coin----button---End -->
-          <h1 class="text-xl font-bold my-4 text-[#111111]">Donate for Flood Relief in Feni,Bangladesh</h1>
+          <h1 id="Feni"  class="text-xl font-bold my-4 text-[#111111]">Donate for Flood Relief in Feni,Bangladesh</h1>
           <p class="mb-6">
               The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
           </p>
-          <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-md" /> <br>
-          <button class="btn bg-lime-400 w-full max-w-md mt-3.5 font-semibold text-xl text-[#111111]">Donate Now</button>
+          <input id="input_text_2" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-md" /> <br>
+          <button id="Btn_2" class="btn bg-lime-400 w-full max-w-md mt-3.5 font-semibold text-xl text-[#111111]">Donate Now</button>
         </div>
       </div>
     </div>
@@ -123,15 +127,15 @@
           <!-- coin----button---start -->
              <button class="bg-stone-300 flex py-1 px-3 rounded-md ">
               <img class="w-6 " src="assets/coin.png" alt="">
-              <h1 class="text-base font-normal ">2,400 BDT</h1>
+              <h1 id="Box_card_3" class="text-base font-normal ">2400 BDT</h1>
              </button>
           <!-- coin----button---End -->
-          <h1 class="text-xl font-bold my-4 text-[#111111]">Aid for Injured in the Quota Movement</h1>
+          <h1 id="Quota" class="text-xl font-bold my-4 text-[#111111]">Aid for Injured in the Quota Movement</h1>
           <p class="mb-6">
               The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
           </p>
-          <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-md" /> <br>
-          <button class="btn bg-lime-400 w-full max-w-md mt-3.5 font-semibold text-xl text-[#111111]">Donate Now</button>
+          <input id="input_text_3" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-md" /> <br>
+          <button id="btn_3" class="btn bg-lime-400 w-full max-w-md mt-3.5 font-semibold text-xl text-[#111111]">Donate Now</button>
         </div>
       </div>
     </div>
@@ -139,13 +143,13 @@
 <!-- card---3---End -->
 </div>
 
- <div>
+
   <!-- History card----start -->
-<section id="history" class="hidden " >
- <h1>Dipu is a good boy</h1>
+<section id="history" class=" mx-[10px] lg:mx-[200px] " >
+ 
 </section>
  <!-- History card----End -->
- </div>
+
       
     </main>
 <!-- main file End---- -->
@@ -157,5 +161,6 @@
 </footer> -->
   <script src="js/style.js"></script>  
   <script src="js/function.js"></script>
+  <script src="js/AddMoney.js"></script>
 </body>
 </html>
