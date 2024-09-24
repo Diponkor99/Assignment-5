@@ -78,3 +78,6 @@ document.getElementById('btn_3').addEventListener('click',function(){
  )
 // card-3----End------3
 
+document. getElementById('blog').addEventListener('click', function(){
+     window.location.href='home/index.html';
+})
