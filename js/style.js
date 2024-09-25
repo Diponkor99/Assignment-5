@@ -10,7 +10,7 @@ document.getElementById('History').addEventListener('click',function(){
 })
 
 document.getElementById('blog').addEventListener('click',function(){
-    window.location.href='/home/index.html'
+    window.location.href='https://diponkor99.github.io/Assignment-5/home/'
   })
 
   
