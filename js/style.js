@@ -9,5 +9,8 @@ document.getElementById('History').addEventListener('click',function(){
     bgColor('dp');
 })
 
-
+document.getElementById('blog').addEventListener('click',function(){
+    window.location.href='/home/index.html'
+  })
+  
 
