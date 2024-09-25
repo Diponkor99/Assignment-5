@@ -12,5 +12,5 @@ document.getElementById('History').addEventListener('click',function(){
 document.getElementById('blog').addEventListener('click',function(){
     window.location.href='/home/index.html'
   })
-  
 
+  
