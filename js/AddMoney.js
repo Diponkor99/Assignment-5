@@ -20,7 +20,7 @@ document.getElementById('Donate-btn1').addEventListener('click',function(){
    document.getElementById('Main_maney').innerText=Sub_money;
    const noakhali =document.getElementById('Noakhali').innerText;
    History(add_con, noakhali);
-  alert('The money was sent successfully')
+   document.getElementById('my_modal_1').showModal()
  
    
  }
@@ -47,7 +47,9 @@ document.getElementById('Btn_2').addEventListener('click',function(){
    document.getElementById('Main_maney').innerText=Sub_money;
    const name2=document.getElementById('Feni').innerText;
    History(add_con,name2);
-   alert('The money was sent successfully')
+   document.getElementById('my_modal_1').showModal()
+   
+
  }
  )
 // card-2----End------2
@@ -73,8 +75,9 @@ document.getElementById('btn_3').addEventListener('click',function(){
    document.getElementById('Main_maney').innerText=Sub_money;
 
    const quota=document.getElementById('Quota').innerText;
+   
    History(add_con1,quota);
-   alert('The money was sent successfully')
+   document.getElementById('my_modal_1').showModal()
    
  }
  )

@@ -152,13 +152,24 @@
 
       
     </main>
-<!-- main file End---- -->
-
-<!-- <footer>
-    <div class="bg-amber-50 h-24">
-        
+    <section class="text-center">
+     <!-- Open the modal using ID.showModal() method -->
+<button class="btn hidden" onclick="my_modal_1.showModal()">open modal</button>
+<dialog id="my_modal_1" class="modal">
+  <div class="modal-box">
+    <h3 class="text-lg font-bold">Congrates!</h3>
+    <img class="mx-auto" src="assets/coin.png" alt="">
+    <p class="py-4">You Have Donated for Humankind</p>
+    <h3 class="text-lg font-bold">Successfully</h3>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn btn-wide">Close confirmation</button>
+      </form>
     </div>
-</footer> -->
+  </div>
+</dialog>
+    </section>
   <script src="js/style.js"></script>  
   <script src="js/function.js"></script>
   <script src="js/AddMoney.js"></script>
